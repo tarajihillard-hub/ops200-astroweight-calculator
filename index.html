@@ -4,10 +4,34 @@
 <head>
   <meta charset="utf-8">
   <title>Astro Weight Calculator</title>
+  <link rel="icon" type="image/x-icon" href="images/nasa.png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Science+Gothic:wght@100..900&display=swap" rel="stylesheet">
 </head>
+
+
 
 <body>
   <!-- Write your markup here  -->
+
+  <section id="company_title">
+    <img id="emblem" src="images/nasa_home.png">
+  </section>
+
+  <section id="title">
+    <p>Astroweight Calculator</p>
+  </section>
+
+  <section id="main_content">
+  <input id="user-weight" type="text" placeholder="Weight (lbs)" /> 
+  <label for="planets">Select a planet</label>
+  <select id="planets"></select>
+  <button id="calculate-button">calculate</button>
+  </section>
+
+  <p id="output"></p>
 
   <script src="main.js" charset="utf-8"></script>
 </body>
