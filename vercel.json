@@ -1,5 +1,5 @@
 {
-  "buildCommand": "echo 'No build required'",
+  "buildCommand": "",
   "outputDirectory": "public",
   "devCommand": "npm start"
 }
